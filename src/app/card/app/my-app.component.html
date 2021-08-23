@@ -1,0 +1,9 @@
+<p>
+  {{ app.name }}
+  <ng-container *ngFor="let icon of app.icons">
+    <ion-icon *ngIf="!icon.link" [name]="icon.name"></ion-icon>
+    <a *ngIf="icon.link" [href]="icon.link">
+      <ion-icon [name]="icon.name"></ion-icon>
+    </a>
+  </ng-container>
+</p>

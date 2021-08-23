@@ -1,0 +1,89 @@
+@import 'src/variables';
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+	font-size: 15px;
+  background-color: $color-background;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif;
+}
+
+h2{
+	color: $color-secondary;
+	font-weight: 400;
+	font-size: 36px;
+  margin: 6px 0;
+	padding: 10px 0;
+}
+
+h5{
+	color: $color-secondary;
+	font-weight: 400;
+	font-size: 18px;
+  margin: 8px 0;
+}
+
+h6{
+	color: $color-primary;
+	font-weight: 400;
+	font-size: 18px;
+  margin: 8px 0;
+}
+
+hr{
+	border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+p{
+	margin:6px;
+}
+
+i, .dl-color{
+	color: $color-primary;
+	margin-right: 16px;
+}
+
+ion-icon{
+	color: $color-primary;
+	font-size:18px;
+	transform:translateY(3px);
+	padding-left:2px;
+}
+
+img{
+	vertical-align: middle;
+	width: 100%;
+}
+
+span{
+	color: $color-white;
+	background-color: $color-primary;
+	border-radius: 4px;
+	padding: 0 8px;
+	font-size:16px;
+}
+
+a:visited {
+	text-decoration: none;
+	color: $color-primary;
+}
+
+a:link {
+	text-decoration: none;
+	color: $color-primary;
+}
+
+.dl-container{
+	padding: 0.15px 16px;
+}
+
+.inline{
+	display: inline;
+}

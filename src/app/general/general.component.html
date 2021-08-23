@@ -1,0 +1,50 @@
+<app-card class="general-section">
+  <app-card-title icon="user">David Lerner</app-card-title>
+
+  <div class="dl-container">
+    <app-contact-info icon="briefcase">
+      Software Developer & Chemical and Biotechnology Engineer
+    </app-contact-info>
+    <app-contact-info icon="home">Edmonton, AB</app-contact-info>
+    <app-contact-info icon="envelope">lernerlombrozo@gmail.com</app-contact-info>
+    <app-contact-info icon="phone">+1 (780) 236 0396</app-contact-info>
+  </div>
+
+  <hr />
+
+  <app-card-subtitle icon="asterisk">Skills</app-card-subtitle>
+  <div class="dl-container">
+    <p style="display: inline-block" *ngFor="let skill of skills; let last = last">
+      {{ skill }}
+      <ng-container *ngIf="!last">,</ng-container>
+    </p>
+    <p style="display: inline-block">...</p>
+  </div>
+
+  <hr />
+
+  <app-card-subtitle icon="globe">Languages</app-card-subtitle>
+
+  <app-language [proficiency]="100">
+    <app-language-name>Spanish</app-language-name>
+    <app-language-description>Native</app-language-description>
+  </app-language>
+  <app-language [proficiency]="83">
+    <app-language-name>English</app-language-name>
+    <app-language-description>IELTS B2 as of April 2017</app-language-description>
+  </app-language>
+  <hr />
+
+  <app-card-subtitle icon="mobile">My Apps</app-card-subtitle>
+
+  <div class="dl-container">
+    <app-my-app *ngFor="let app of apps" [app]="app"></app-my-app>
+  </div>
+  <hr />
+
+  <app-card-subtitle icon="mobile">Follow Me On</app-card-subtitle>
+  <div class="dl-container">
+    <app-my-app *ngFor="let media of medias" [app]="media"></app-my-app>
+  </div>
+  <hr />
+</app-card>

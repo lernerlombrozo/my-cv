@@ -1,0 +1,8 @@
+<div class="dl-container">
+  <app-job-title>{{ job.position }} / {{ job.company }}</app-job-title>
+  <app-job-dates [startDate]="job.startDate" [endDate]="job.endDate"></app-job-dates>
+  <app-job-description [link]="job.website" [name]="job.linkName">
+    {{ job.description }}
+  </app-job-description>
+  <hr />
+</div>

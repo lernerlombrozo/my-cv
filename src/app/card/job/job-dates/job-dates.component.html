@@ -1,0 +1,7 @@
+<h6>
+  <i class="fa fa-calendar fa-fw"></i>
+  <ng-container>{{ startDate | date: 'MMMM yyy' }}</ng-container>
+  -
+  <ng-container *ngIf="endDate">{{ endDate | date: 'MMMM yyy' }}</ng-container>
+  <span *ngIf="!endDate">Present</span>
+</h6>

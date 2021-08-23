@@ -1,0 +1,16 @@
+@import 'src/variables';
+
+$bar-radius: 16px;
+
+.bar-out{
+	background-color: $color-background;
+	border-radius: $bar-radius;
+	.bar-in{
+		color: $color-white;
+		background-color: $color-primary;
+		text-align: center;
+		border-radius: $bar-radius;
+		height: 24px;
+	}
+}
+

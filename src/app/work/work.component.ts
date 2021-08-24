@@ -13,7 +13,7 @@ export class WorkComponent {
       position: 'Intermediate Software Developer',
       startDate: new Date('August 2020'),
       description:
-        'designs and develops user-friendly software to dramatically improve the functionality and accessibility of modern financial technology and services. Currently I work in the design of new features as well as developing test driven software and infrastructure.',
+        'designs and develops user-friendly software to dramatically improve the functionality and accessibility of modern financial technology and services. Currently I work as part of a SCRUM team in the technical design of new features as well as developing test driven software and infrastructure.',
       website: 'https://www.ghostlab.ca/',
       linkName: 'Ghostlab',
     },

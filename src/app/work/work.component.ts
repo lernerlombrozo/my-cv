@@ -42,7 +42,7 @@ export class WorkComponent {
       startDate: new Date('June 2017'),
       endDate: new Date('January 2019'),
       description:
-        'is an app that connects users with mariachi bands in Mexico City. I programmed the front end for both the mariachi bands and the users (Ionic 3) as well as the website (Angular 4). I also programmed the firebase cloud functions and designed the firebase realtime database structure and rules.',
+        'was an app that connected users with mariachi bands in Mexico City. I programmed the front end for both the mariachi bands and the users (Ionic 3) as well as the website (Angular 4). I also programmed the firebase cloud functions and designed the firebase realtime database structure and rules.',
       website: 'https://mariappchi.mx/',
       linkName: 'Mariappchi',
     },

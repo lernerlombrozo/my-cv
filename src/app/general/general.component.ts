@@ -21,18 +21,19 @@ export class GeneralComponent {
     'Node.js',
     'Express.js',
     'Nest.js',
+    'D3.js',
     'GIT',
     'APIs',
     'MongoDB',
     'Postgres',
-    'Firebase',
     'Mongoose',
+    'Firebase',
+    'Heroku',
+    'a bit of AWS',
     'Docker',
-    'D3.js',
     'java',
     'MATLAB',
     'R',
-    'A bit of AWS',
   ];
 
   public readonly apps: App[] = [

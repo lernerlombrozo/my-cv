@@ -13,7 +13,7 @@ export class WorkComponent {
       position: 'Intermediate Software Developer',
       startDate: new Date('August 2020'),
       description:
-        'designs and develops user-friendly software to dramatically improve the functionality and accessibility of modern financial technology and services. Currently I work developing software and infrastructure.',
+        'designs and develops user-friendly software to dramatically improve the functionality and accessibility of modern financial technology and services. Currently I work in the design of new features as well as developing test driven software and infrastructure.',
       website: 'https://www.ghostlab.ca/',
       linkName: 'Ghostlab',
     },
@@ -23,7 +23,7 @@ export class WorkComponent {
       startDate: new Date('January 2020'),
       endDate: new Date('August 2020'),
       description:
-        ',formerly Bitcoin Solutions offers convenient and secure online and in-person solutions to help buy and sell Bitcoin and other cryptocurrencies.',
+        'is the first ever public Bitcoin ATM company. Besides Bitcoin ATMS, Bitcoin Well offers convenient and secure online and in-person solutions to help buy and sell Bitcoin and other cryptocurrencies. Bitcoin Well was formerly known as Bitcoin Solutions. I worked developing test driven software and infrastructure.',
       website: 'https://bitcoinwell.com/',
       linkName: 'Bitcoin Well',
     },
@@ -32,7 +32,7 @@ export class WorkComponent {
       position: 'Front End Developer (Mobile App)',
       startDate: new Date('April 2018'),
       description:
-        'is an app with over 10,000 paying users which allows them to book fitness classes in over 1,200 studios in Mexico and Chile. I redesigned and programmed the second version of the Android and IOS app (Ionic 3). Currently I make occasional changes and updates',
+        'is an app with over 10,000 paying users which allows them to book fitness classes in over 1,200 studios in Mexico, Chile, Colombia and Peru. I redesigned and programmed the second version of the Android and IOS app (Ionic 3). Currently I make occasional changes and updates.',
       website: 'https://www.fitpass.com/mx',
       linkName: 'Fitpass',
     },

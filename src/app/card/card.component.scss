@@ -9,3 +9,9 @@ $margin-length: 15px;
 	padding: 0.01em 16px;
 	height: calc(100% - #{$margin-length})
 }
+
+@media print {
+  .card{
+		box-shadow: none;
+	}
+}

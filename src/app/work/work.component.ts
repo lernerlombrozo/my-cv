@@ -23,7 +23,7 @@ export class WorkComponent {
       startDate: new Date('January 2020'),
       endDate: new Date('August 2020'),
       description:
-        'is the first ever public Bitcoin ATM company. Besides Bitcoin ATMS, Bitcoin Well offers convenient and secure online and in-person solutions to help buy and sell Bitcoin and other cryptocurrencies. Bitcoin Well was formerly known as Bitcoin Solutions. I worked developing test driven software and infrastructure.',
+        'is the first ever publicly traded Bitcoin ATM company. Besides Bitcoin ATMs, Bitcoin Well offers convenient and secure online and in-person solutions to help buy and sell Bitcoin and other cryptocurrencies. Bitcoin Well was formerly known as Bitcoin Solutions. I worked developing test driven software and infrastructure.',
       website: 'https://bitcoinwell.com/',
       linkName: 'Bitcoin Well',
     },
